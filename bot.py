@@ -55,7 +55,7 @@ logger = logging.getLogger(__name__)
 # ==================== CONFIGURATION ====================
 BOT_TOKEN = os.getenv('BOT_TOKEN', '8520873297:AAH6WANR20WXYMOaRrMaztKjTipzoojG028')
 ADMIN_IDS = [int(x) for x in os.getenv('ADMIN_IDS', '8552949710').split(',') if x.strip()]
-DATABASE_URL = os.getenv('DATABASE_URL', 'postgresql://postgres:LgOSszzUWzYlfoZdMRUVyiGbpEogeUnW@postgres.railway.internal:5432/railway')  # Railway این رو خودکار میذاره
+DATABASE_URL = os.getenv('DATABASE_URL', 'postgresql://postgres:yWKCifESVJKMgbZgxQWoZvqrgaWYDKiF@postgres.railway.internal:5432/railway')  # Railway این رو خودکار میذاره
 
 # ==================== شماره کارت برای واریز ====================
 CARD_NUMBER = os.getenv('CARD_NUMBER', '6037-9917-6124-5137')
